@@ -19,7 +19,7 @@ namespace CalculatorPeeps
         static int Divide(int Numerator, int Divisor)
         {
             if (Divisor == 0)
-            { throw new ArgumentOutOfRangeException("Divisor is 0"); }
+            { throw new DivideByZeroException("Divisor is 0"); }
 
             return Numerator / Divisor;
         }
