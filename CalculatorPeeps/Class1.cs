@@ -4,8 +4,6 @@ namespace CalculatorPeeps
 {
   public static class Calculator 
   {
-    //Multiply-Divide
-    
     //Add-Subtract
 
     static int addition(int x, int y)
@@ -16,9 +14,7 @@ namespace CalculatorPeeps
         {
             return x - y;
         }
-  }
-    public static class Calculator
-    {
+
         // Multiply-Divide
         static int MaxValue = 2147483647;
         static int Multiply(int one, int two)
@@ -38,8 +34,5 @@ namespace CalculatorPeeps
 
             return Numerator / Divisor;
         }
-
-        //Add-Subtract
-
     }
 }
