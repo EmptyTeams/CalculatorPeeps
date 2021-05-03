@@ -7,9 +7,6 @@ namespace CalculatorPeeps
     //Multiply-Divide
     
     //Add-Subtract
-    public static void test()
-        {
-            return;
-        }
+
   }
 }
